@@ -1,11 +1,16 @@
+import sys
+a=sys.argv[1]
+print("Hello World")
+
 def open():
-    print("Door Opened")
+    print("Door Opened"+a)
 def close():
     print("Door Closed")
 
 def main():
     open()
-    close()
 
-if __name__ == 'main':
+if __name__ == '__main__':
     main()
+
+
